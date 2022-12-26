@@ -336,6 +336,7 @@ padding: 8px 16px;
 
 }
 .prtf-img{
+    
 
 }
 .main-prtf-head{
@@ -371,4 +372,5 @@ padding-left: 16px;
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
+    padding-bottom: 120px;
 }

@@ -167,9 +167,10 @@ cursor: pointer;
 
 .fourblocks {padding-top: 120px; 
 }
-.fourblocks-list {
+.fourblocks-list{
     display: flex;
     gap: 24px;
+    flex-wrap: nowrap;
 }
 
 .fourblocks-head {
@@ -302,7 +303,7 @@ margin-top: 18px;
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding-top: 168px;
+    padding-top: 96px;
     padding-bottom: 72px;
     margin: 0 auto;
     flex-direction: row;
@@ -344,6 +345,7 @@ line-height: calc(24 / 20);
 letter-spacing: 0.02em;
 color: #2E2F42;
 padding-top: 32px;
+padding-left: 16px;
 }
 .main-prtf-txt{
 font-size: 16px;
@@ -352,15 +354,19 @@ letter-spacing: 0.02em;
 color: #434455;
 margin-top: 8px;
 margin-bottom: 32px;
+padding-left: 16px;
 }
 .conteiner{
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid red;
+   
     margin: 0 auto;
 }
 .conteiner .list{
+  
+}
+.fucking-foto .list{
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;

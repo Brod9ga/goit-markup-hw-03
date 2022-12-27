@@ -16,8 +16,7 @@ ul, ol{margin: 0; padding-left: 0;}
 body{
     font-family: 'Roboto', sans-serif;
     position: relative;
-    width: 1440px;
-    height: 2593px;
+    
 background: var(--white-color);
 }
 .list{
@@ -33,7 +32,11 @@ background: var(--white-color);
 .header-nav:focus{
 color: #4D5AE5;
 }
-.header {padding-bottom: 24px; padding-top: 24px;}
+.header .conteiner {
+    padding-bottom: 24px; 
+    padding-top: 24px; 
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);;
+}
 .header-main {
     display: flex;
 }
@@ -119,6 +122,8 @@ color: #4D5AE5;
 .main-head {
     background: #2E2F42;
     height: 603px;
+    padding-top: 192px;
+padding-bottom: 88px;
 }
 .main-head-text {
 font-weight: 500;
@@ -128,27 +133,22 @@ text-align: center;
 letter-spacing: 0.02em;
 color: var(--white-color);
 width: 492px;
-position: absolute;
-width: 492px;
-height: 120px;
-left: 474px;
-top: 264px;
+margin: 0 auto;
+
 
 }
 .main-head-btn {
-    display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 16px 32px;
     gap: 10px;
     
-    position: absolute;
     width: 170px;
     height: 51px;
-    left: 635px;
-    top: 432px;
     background: #4D5AE5;
     color: var(--white-color);
+    display: block;
+    margin: 48px auto;
 }
 .main-head-btn:hover{
     background-color: #404BBF;;
@@ -187,14 +187,14 @@ letter-spacing: 0.02em;
 color: #434455;
 margin-top: 8px;
 }
-.fourblocks-blok1 {
+.fourblocks-blok1 {width: 264px;
 }
-.fourblocks-blok2 {
+.fourblocks-blok2 {width: 264px;
     
 }
-.fourblocks-blok3 {
+.fourblocks-blok3 {width: 264px;
 }
-.fourblocks-blok4 {
+.fourblocks-blok4 {width: 264px;
 }
 .about {padding-top: 120px; padding-bottom: 120;
 }
@@ -220,8 +220,9 @@ color: #2E2F42;
 }
 .team {margin-top: 120px; padding-bottom: 120;
     background: #F4F4FD;
-    padding-bottom: 120px;
+    
 }
+.team .conteiner{padding-top: 120px;}
 
 .team-head {
     font-weight: 600;
@@ -231,7 +232,7 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
-padding-top: 120px;
+
 }
 .team-list {
     display: flex;
@@ -255,7 +256,8 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
-margin-top: 32px;
+padding-top: 32px;
+padding-bottom: 8px;
 }
 .team-img-txt {
 font-size: 16px;
@@ -263,10 +265,9 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: #434455;
-margin-top: 8px;
+
 }
-.footer {padding-bottom: 24px; padding-top: 24px;
-    height: 310px;
+.footer {padding-bottom: 100px; padding-top: 100px;
     background: #2E2F42;
 }
 .footer-txt {
@@ -301,14 +302,16 @@ margin-top: 18px;
     text-transform: uppercase;
     color: #F4F4FD;
 }
+.main-prtf{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .portfolio-btn{
 
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding-top: 96px;
-    padding-bottom: 72px;
-    margin: 0 auto;
+margin-bottom: 72px;
     flex-direction: row;
 }
 .main-prtf-btn{
@@ -325,6 +328,7 @@ cursor: pointer;
 border-radius: 4px;
 height: 48px;
 padding: 8px 16px;
+border: transparent;
 
 }
 
@@ -338,7 +342,7 @@ padding: 8px 16px;
 .prtf-list3{
 
 }
-.prtf-img{
+.prtf-img{display: block; 
     
 
 }
@@ -348,8 +352,7 @@ font-size: 20px;
 line-height: calc(24 / 20);
 letter-spacing: 0.02em;
 color: #2E2F42;
-padding-top: 32px;
-padding-left: 16px;
+
 }
 .main-prtf-txt{
 font-size: 16px;
@@ -357,8 +360,7 @@ line-height: calc(20/16);
 letter-spacing: 0.02em;
 color: #434455;
 margin-top: 8px;
-margin-bottom: 32px;
-padding-left: 16px;
+
 }
 .conteiner{
     width: 1158px;
@@ -370,6 +372,11 @@ padding-left: 16px;
 .conteiner .list{
   
 }
+.div-prtf{border: 0.5px solid #F4F4FD;
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-bottom: 32px;
+}
 .fucking-foto .list{
     display: flex;
     flex-wrap: wrap;
@@ -377,4 +384,4 @@ padding-left: 16px;
     column-gap: 24px;
     padding-bottom: 120px;
 }
-Хай подохнуть москалі
+
